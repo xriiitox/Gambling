@@ -14,6 +14,6 @@ public class Blackjack
 
     public Blackjack()
     {
-        throw new NotImplementedException();
+        DealerHand = [];
     }
 }

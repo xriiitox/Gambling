@@ -20,6 +20,11 @@
     </Design.DataContext>
     <Grid>
         <TextBlock Text="{Binding Greeting}" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,100"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Background="Green" Content="Blackjack"/>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Background="Green" Content="Blackjack" Click="Blackjack_OnClick"/>
+        <!-- <StackPanel DataContext="{Binding Car}">
+            <TextBlock Text="{Binding Number}"/>
+            <TextBlock Text="{Binding Suit}"/>
+            <Button Content="Get New Card" Click="Button_OnClick"/>
+        </StackPanel> -->
     </Grid>
 </Window>
